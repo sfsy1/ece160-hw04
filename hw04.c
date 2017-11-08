@@ -69,7 +69,7 @@ int main(int argc, char *argv[]) {
 	i++;
   }
   // Takes index and mode from user input, then prints	
-		printf("Please input \"(index) (mode)\" to display student info:\n");
+		//printf("Please input \"(index) (mode)\" to display student info:\n");
 		while ( 1 > 0 ) {
 		  scanf("%d %d", &in, &m);
 		  print_student(m, s[in]);
